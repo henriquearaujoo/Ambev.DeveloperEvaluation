@@ -28,7 +28,7 @@ Este projeto é uma API RESTful construída com ASP.NET Core seguindo os princí
 ### 2. Clonar o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repo.gitAqui está o conteúdo completo para o seu `README.md`, incluindo todas as instruções de build, execução, testes e fluxo completo da API:
+git clone https://github.com/seu-usuario/seu-repo.git
 ```
 ---
 
