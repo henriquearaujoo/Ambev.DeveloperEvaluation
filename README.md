@@ -176,8 +176,7 @@ tests/
 
 ## 👨‍💻 Autor
 
-Desenvolvido por [Seu Nome]  
-[LinkedIn / GitHub se quiser colocar]
+Desenvolvido por Henrique Araújo  
 
 ---
 
