@@ -29,14 +29,7 @@ Este projeto é uma API RESTful construída com ASP.NET Core seguindo os princí
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repo.gitAqui está o conteúdo completo para o seu `README.md`, incluindo todas as instruções de build, execução, testes e fluxo completo da API:
-
----
-
-```markdown
-# 🛒 Ambev Developer Evaluation – Sales API
-
-Este projeto é uma API RESTful desenvolvida com ASP.NET Core com foco em Domain-Driven Design (DDD). A API permite o gerenciamento completo de vendas, incluindo regras de desconto, cancelamento e controle de itens.
-
+```
 ---
 
 ## 🧱 Estrutura do Projeto
