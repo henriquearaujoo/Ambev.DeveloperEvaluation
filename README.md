@@ -176,6 +176,5 @@ Desenvolvido por Henrique Araújo
 ## 📄 Licença
 
 Este projeto é livre para uso apenas em fins educacionais e de avaliação técnica.
-```
 
 ---
