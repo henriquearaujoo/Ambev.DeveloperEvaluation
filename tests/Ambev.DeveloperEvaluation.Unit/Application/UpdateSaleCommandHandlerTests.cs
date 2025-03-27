@@ -29,8 +29,8 @@ public class UpdateSaleCommandHandlerTests
             Branch = _faker.Address.City(),
             Items = new List<UpdateSaleItemDto>
             {
-                new() { Product = "Beer", Quantity = 10, UnitPrice = 5.0m },
-                new() { Product = "Beer", Quantity = 5, UnitPrice = 5.0m }
+                new() { Product = "produto 1", Quantity = 10, UnitPrice = 5.0m },
+                new() { Product = "produto 1", Quantity = 5, UnitPrice = 5.0m }
             }
         };
 
@@ -55,7 +55,7 @@ public class UpdateSaleCommandHandlerTests
             Branch = _faker.Address.City(),
             Items = new List<UpdateSaleItemDto>
             {
-                new() { Product = "Juice", Quantity = 25, UnitPrice = 3.0m }
+                new() { Product = "Produto 2", Quantity = 25, UnitPrice = 3.0m }
             }
         };
 
