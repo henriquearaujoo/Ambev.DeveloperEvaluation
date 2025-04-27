@@ -163,6 +163,5 @@ Developed by Henrique Araújo
 ## 📄 Licença
 
 This project is free to use for educational and technical evaluation purposes only.
-```
 
 ---
