@@ -19,26 +19,6 @@ This project is a RESTful API built with ASP.NET Core following Domain-Driven De
 
 ---
 
-## 🔧 How to Run the Project
-
-### 1. Prerequisites
-
-- [.NET 8 SDK](https://dotnet.microsoft.com/download)
-
-### 2. Clone the repository
-
-```bash
-git clone https://github.com/seu-usuario/seu-repo.gitAqui está o conteúdo completo para o seu `README.md`, incluindo todas as instruções de build, execução, testes e fluxo completo da API:
-```
----
-
-```markdown
-# 🛒 Ambev Developer Evaluation – Sales API
-
-This project is a RESTful API built with ASP.NET Core following Domain-Driven Design (DDD) principles. It allows you to manage sales with item tracking, quantity discounts, and full CRUD functionality, including sales cancellation.
-```
----
-
 ## 🧱 Estrutura do Projeto
 
 - `Domain`: entities and business rules
