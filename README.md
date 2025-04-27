@@ -19,7 +19,7 @@ This project is a RESTful API built with ASP.NET Core following Domain-Driven De
 
 ---
 
-## 🧱 Estrutura do Projeto
+## 🧱 Project structure
 
 - `Domain`: entities and business rules
 - `Application`: commands, queries, handlers and validations
@@ -30,7 +30,7 @@ This project is a RESTful API built with ASP.NET Core following Domain-Driven De
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used
 
 - **.NET 8**  
 - **ASP.NET Core Web API**  
@@ -39,10 +39,10 @@ This project is a RESTful API built with ASP.NET Core following Domain-Driven De
 - **AutoMapper**
 - **FluentValidation**
 - **Rebus (simulado por log)**
-- **Bogus** – dados falsos para testes
+- **Bogus** – fake data
 - **NSubstitute** – mocks
-- **xUnit** – testes
-- **Microsoft.AspNetCore.Mvc.Testing** – testes de integração
+- **xUnit** – tests
+- **Microsoft.AspNetCore.Mvc.Testing** – integration tests
 
 ---
 
