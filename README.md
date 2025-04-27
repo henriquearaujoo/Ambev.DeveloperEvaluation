@@ -29,7 +29,7 @@ This project is a RESTful API built with ASP.NET Core following Domain-Driven De
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repo.gitAqui está o conteúdo completo para o seu `README.md`, incluindo todas as instruções de build, execução, testes e fluxo completo da API:
-
+```
 ---
 
 ```markdown
