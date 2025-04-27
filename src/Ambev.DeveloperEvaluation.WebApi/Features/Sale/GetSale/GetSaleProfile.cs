@@ -13,7 +13,7 @@ public class GetSaleProfile : Profile
         CreateMap<Guid, GetSaleQuery>()
             .ConstructUsing(id => new GetSaleQuery(id));
         CreateMap<GetSaleItemDtoResult, GetSaleItemDtoResponse>();
-        CreateMap<GetSaleResult, GetSaleResponse>();
+        CreateMap<GetSaleResult, GetSaleResponse>().ReverseMap();
         
     }
 }

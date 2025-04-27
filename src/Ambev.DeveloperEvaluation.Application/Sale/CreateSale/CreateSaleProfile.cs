@@ -9,6 +9,8 @@ public class CreateSaleProfile : Profile
     public CreateSaleProfile()
     {
         CreateMap<CreateSaleCommand, Domain.Entities.Sale>();
+        CreateMap<Domain.Entities.Sale, CreateSaleCommand>().ReverseMap();
+        CreateMap<SaleItem, CreateSaleItemDto>().ReverseMap();
         CreateMap<Domain.Entities.Sale, CreateSaleResult>();
     }
 }

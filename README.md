@@ -51,25 +51,31 @@ This project is a RESTful API built with ASP.NET Core following Domain-Driven De
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
+git clone https://github.com/henriquearaujoo/Ambev.DeveloperEvaluation
+cd Ambev.DeveloperEvaluation
 ```
 
-### 2. Restore packages
+### 2. Docker compose
 
 ```bash
-dotnet restore
+docker-compose up -d
 ```
 
-### 3. Create the database and apply migrations
+### 3. Restore packages
 
 ```bash
-dotnet ef database update --project src/Ambev.DeveloperEvaluation.ORM
+dotnet restore .\Ambev.DeveloperEvaluation.sln
+```
+
+### 4. Create the database and apply migrations
+
+```bash
+dotnet ef database update --startup-project src/Ambev.DeveloperEvaluation.WebApi --project src/Ambev.DeveloperEvaluation.ORM
 ```
 
 > The bank must be configured correctly in `appsettings.Development.json`
 
-### 4. Execute API
+### 5. Execute API
 
 ```bash
 dotnet run --project src/Ambev.DeveloperEvaluation.WebApi
@@ -78,8 +84,8 @@ dotnet run --project src/Ambev.DeveloperEvaluation.WebApi
 The API will be available at:
 
 ```
-http://localhost:5000
-https://localhost:5001
+http://localhost:5119/swagger
+https://localhost:7181/swagger
 ```
 
 ---
@@ -115,7 +121,7 @@ https://localhost:5001
 ### Unit Tests
 
 ```bash
-dotnet test tests/Ambev.DeveloperEvaluation.Tests
+dotnet test .\tests\Ambev.DeveloperEvaluation.Unit
 ```
 
 ### Integration tests

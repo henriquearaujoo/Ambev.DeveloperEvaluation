@@ -93,9 +93,9 @@ public class SalesControllerIntegrationTests : IClassFixture<WebApplicationFacto
         // 2. Get
         var getResponse = await _client.GetAsync($"/api/sales/{saleId}");
         getResponse.EnsureSuccessStatusCode();
-        var sale = await getResponse.Content.ReadFromJsonAsync<ApiResponseWithData<GetSaleResponse>>();
+        var sale = await getResponse.Content.ReadFromJsonAsync<ApiResponseWithData<ApiResponseWithData<GetSaleResponse>>>();
         sale.Should().NotBeNull();
-        sale!.Data.Customer.Should().Be("Full Flow Test");
+        sale!.Data.Data.Customer.Should().Be("Full Flow Test");
 
         // 3. Update
         var updateRequest = new UpdateSaleRequest
@@ -110,9 +110,9 @@ public class SalesControllerIntegrationTests : IClassFixture<WebApplicationFacto
 
         var updateResponse = await _client.PutAsJsonAsync($"/api/sales/{saleId}", updateRequest);
         updateResponse.EnsureSuccessStatusCode();
-        var updated = await updateResponse.Content.ReadFromJsonAsync<ApiResponseWithData<UpdateSaleResponse>>();
+        var updated = await updateResponse.Content.ReadFromJsonAsync<ApiResponseWithData<ApiResponseWithData<UpdateSaleResponse>>>();
         updated.Should().NotBeNull();
-        updated!.Data.Customer.Should().Be("Updated Customer");
+        updated!.Data.Data.Customer.Should().Be("Updated Customer");
 
         // 4. Cancel
         var cancelResponse = await _client.PutAsync($"/api/sales/cancel/{saleId}", null);
