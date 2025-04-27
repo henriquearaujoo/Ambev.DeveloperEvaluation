@@ -36,7 +36,7 @@ git clone https://github.com/seu-usuario/seu-repo.gitAqui está o conteúdo comp
 # 🛒 Ambev Developer Evaluation – Sales API
 
 This project is a RESTful API built with ASP.NET Core following Domain-Driven Design (DDD) principles. It allows you to manage sales with item tracking, quantity discounts, and full CRUD functionality, including sales cancellation.
-
+```
 ---
 
 ## 🧱 Estrutura do Projeto
